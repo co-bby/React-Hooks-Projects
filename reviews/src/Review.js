@@ -6,7 +6,7 @@ const Review = () => {
   const [index, setIndex] = useState(0);
 
   const { name, job, image, text } = people[index];
-
+  // returns the slider back to first or last depending on the button type
   const checkNumber = (number) => {
     if (number > people.length - 1) {
       return 0;
@@ -16,8 +16,13 @@ const Review = () => {
     }
     return number;
   };
+  // random person button functionality
+  const randomPerson = () => {
+    let randomNumber = Math.floor(Math.random() * people.length);
+    setIndex(randomNumber);
+  };
 
-  // button functionalities
+  //prev and next  button functionalities
   const nextPerson = () => {
     setIndex((index) => {
       let newIndex = index + 1;
@@ -49,7 +54,9 @@ const Review = () => {
         <button className="next-btn" onClick={nextPerson}>
           <FaChevronRight />
         </button>
-        <button className="random-btn">Suprise me</button>
+        <button className="random-btn" onClick={randomPerson}>
+          Suprise me
+        </button>
       </div>
     </article>
   );
