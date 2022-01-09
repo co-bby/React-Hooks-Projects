@@ -1,5 +1,10 @@
 # React-Hooks-Projects
-
+<!-- STILL UNDER CONSTRUCTION!!!!!!!!! -->
 #Project Lists
-1. Tour (USeEffect)
-2. Review (UseEffect)
+-TOURS PROJECT
+Hook- useState, UseEffect
+API- https://course-api.com/react-tours-project
+
+-REVIEWS PROJECT
+Hook- useEfffect
+Icons- React Icons
