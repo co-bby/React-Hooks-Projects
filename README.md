@@ -11,5 +11,5 @@ API- https://course-api.com/react-tours-project
 Hook- useEfffect<br/>
 Icons- React Icons
 
-#Slider
+#Slider<br/>
 Hook - useEffect <br/>
