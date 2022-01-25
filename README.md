@@ -1,8 +1,9 @@
-# React-Hooks-Projects
+# React-Hooks-Projects <br/>
 
-<!-- STILL UNDER CONSTRUCTION!!!!!!!!! -->
+UI for all the Project were from uidesigndaily.com <br/>
 
-#Project Lists<br/>
+Project Lists<br/>
+
 #-TOURS PROJECT<br/>
 Hook- useState, UseEffect<br/>
 API- https://course-api.com/react-tours-project
@@ -13,3 +14,5 @@ Icons- React Icons
 
 #Slider<br/>
 Hook - useEffect <br/>
+#CART <br/>
+Hook - useEffect, useReducer, useState <br/>
