@@ -47,7 +47,7 @@ const reducer = (state, action) => {
     return { ...state, total, amount };
   }
   if (action.type === "LOADING") {
-    return { ...state, loading: true };
+    return { ...state, loading: false };
   }
   if (action.type === "DISPLAY_ITEMS") {
     return { ...state, cart: action.payload, loading: false };
