@@ -11,7 +11,7 @@ TOURS PROJECT<br/>
 
 REVIEWS PROJECT<br/>
 *Discription* - A list of people and their personal reviews on a product<br/>
-*Hook* useEfffect<br/>
+*Hook* - useEfffect<br/>
 Icons- React Icons
 
 Slider<br/>
