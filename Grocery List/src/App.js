@@ -17,13 +17,26 @@ function App() {
     if (!name) {
       showAlert(true, "danger", "no value entered")
     } else if (name && isEditing) {
-      // deal with it
+      setList(
+        list.map((item) => {
+          if (item.id === editID) {
+            return { ...item, title: name }
+          }
+          return item
+        })
+      )
+      setName("")
+      SetEditID(null)
+      setIsEditing(false)
+      showAlert(true, "sucess", "You changed a value")
     } else {
       showAlert(true, "success", "you added a grocery to the list")
       const newItem = { id: new Date().getTime().toString(), title: name }
-
       setList([...list, newItem])
       setName("")
+      SetEditID(null)
+      setIsEditing(false)
+      showAlert(true, "sucess", "You changed a value")
     }
   }
   const showAlert = (show = false, type = "", msg = "") => {
@@ -37,9 +50,12 @@ function App() {
     showAlert(true, "danger", "An item has been removed")
     setList(list.filter((item) => item.id !== id))
   }
+
   const editItem = (id) => {
-    showAlert(true, "success", "An item is been edited")
-    setList()
+    const specificItem = list.find((Item) => Item.id === id)
+    setIsEditing(true)
+    SetEditID(id)
+    setName(specificItem.title)
   }
   return (
     <section className="section-center">

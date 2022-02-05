@@ -11,7 +11,11 @@ const List = ({ items, removeItem, editItem }) => {
           <article key={id} className="grocery-item">
             <p className="title">{title}</p>
             <div className="btn-container">
-              <button type="button" className="edit-btn" onClick={editItem}>
+              <button
+                type="button"
+                className="edit-btn"
+                onClick={() => editItem(id)}
+              >
                 <FaEdit />
               </button>
               <button
