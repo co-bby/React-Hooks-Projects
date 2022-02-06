@@ -1,6 +1,6 @@
 # React-Hooks-Projects <br/>
 
-UI for all the Project were from uidesigndaily.com <br/>
+UI for all the Projects was from uidesigndaily.com <br/>
 
 Project Lists<br/>
 
@@ -22,3 +22,7 @@ Slider<br/>
 SHOPPING CART <br/>
 *Discription* - A shopping cart with the price of each product which to you can increase the amount you want to purchase<br/>
 *Hook* - useEffect, useReducer, useState <br/>
+
+Grocery Lists<br/>
+*Discription* -  An app for writing down your grocery list for shopping. You can add and edit each grocery list added <br/>
+*HOOK*- useEffect, useState
