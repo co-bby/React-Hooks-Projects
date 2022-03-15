@@ -26,3 +26,25 @@ SHOPPING CART <br/>
 Grocery Lists<br/>
 *Discription* -  An app for writing down your grocery list for shopping. You can add and edit each grocery list added <br/>
 *HOOK*- useEffect, useState
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Navigate into a specific Project: <br/>
+`cd <project name>`
+
+Installation:
+
+`npm install`  
+
+To Run Test Suite:  
+
+`npm test`  
+
+To Start Server:
+
+`npm start`  
+
+
+To Visit App:
+
+`localhost:3000` 
